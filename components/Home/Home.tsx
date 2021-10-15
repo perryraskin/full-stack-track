@@ -68,9 +68,16 @@ const Home: NextPage<Props> = ({}) => {
                 </div>
               </div>
               <div className="p-2 w-full">
-                <button className="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">
+                <button className="mb-10 flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">
                   Submit
                 </button>
+                <a
+                  role="button"
+                  href="/contact"
+                  className="mt-10 mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"
+                >
+                  Contact Us
+                </a>
               </div>
             </div>
           </div>
