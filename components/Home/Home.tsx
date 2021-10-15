@@ -74,9 +74,18 @@ const Home: NextPage<Props> = ({}) => {
                 <a
                   role="button"
                   href="/contact"
-                  className="mt-10 mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"
+                  className="mt-10 mb-10 mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"
                 >
                   Contact Us
+                </a>
+                <br />
+                <br />
+                <a
+                  role="button"
+                  href="/pricing"
+                  className="mt-10 mx-auto text-white bg-black border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"
+                >
+                  View Pricing
                 </a>
               </div>
             </div>
