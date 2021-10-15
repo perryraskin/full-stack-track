@@ -5,6 +5,9 @@ import Home from "../components/Home/Home"
 interface Props {}
 
 const HomePage: NextPage<Props> = ({}) => {
+  useEffect(() => {
+    fetch(`/api/test`)
+  }, [])
   return <Home />
 }
 
